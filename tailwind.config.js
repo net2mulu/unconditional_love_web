@@ -6,7 +6,13 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        neue:["Bebas Neue" ,"sans-serif"],
+        kaushan: ["Kaushan Script", "sans-serif"],
+         
+      }
+    },
   },
   plugins: [],
 }
